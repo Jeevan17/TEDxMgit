@@ -133,9 +133,9 @@ div.container a
 }
 .center-block {
     display: block;
-	font-family: 'Macondo', cursive;;
-	font-size:80px;
-	padding-bottom:25px;
+    font-family: 'Macondo', cursive;;
+    font-size:90px;
+    padding-bottom:50px;
     margin-right: auto;
     margin-left: auto;
 }

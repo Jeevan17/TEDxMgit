@@ -151,7 +151,7 @@ div.container a
     color: #000;
     text-decoration: none;
     font: 20px Raleway;
-	font-family:'Raleway', sans-serif;
+    font-family:'Raleway', sans-serif;
     margin: 0px 10px;
     padding: 5px 5px;
     position: relative;
@@ -159,12 +159,12 @@ div.container a
     cursor: pointer;
 }
 .center-block {
-    display: block;
+    	display: block;
 	font-family: 'Macondo', cursive;
 	font-size:90px;
 	padding-bottom:50px;
-    margin-right: auto;
-    margin-left: auto;
+    	margin-right: auto;
+    	margin-left: auto;
 }
 .page-header {
     padding-bottom: 9px;
@@ -172,7 +172,7 @@ div.container a
     border-bottom: 1px solid #eee;
 }
 .text-center {
-    text-align: center;
+    	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 27px;
 }
@@ -282,8 +282,33 @@ span.turn{
 	background:#FFF;
 	opacity:0;
 }
+
+
 .txt-left>img{
 	float: left;
+	width: 330px;
+	height: 350px;
+	border-radius:100%;
+	padding-right:10px;
+}
+
+.speaker-name{
+	font-family:'Muli', sans-serif;
+	font-size:25px;
+	font-weight: bold;
+}
+
+.speaker-profession{
+	font-family: 'Ubuntu', sans-serif;
+    	font-size: 20px;
+	font-weight: bold;
+	padding-top: 3px;
+	color: red;
+}
+
+.txt-left{
+	height: 350px;
+	background: linear-gradient(to left, #fff,#000);//rgba(255,0,0,0), rgba(255,0,0,1));
 }
 /*.pic:hover .text
 {
@@ -298,12 +323,28 @@ span.turn{
 }*/
 .speakers{
 	text-align:center;
-	margin:1rem;
-	padding-bottom:2rem;
+	//margin:1rem;
+	//padding-bottom:2rem;
 }
 .speakers-text{
-	padding-top: 100px; 
+	padding-top: 55px;
+	padding-right:30px;
+	text-align:justify;
+	font-family:'Open Sans Condensed', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	margin-left:10px;
 	//border:1px solid #ccc;
+}
+
+.text-talks{
+	padding: 15px 0px;
+	text-align:center;
+	font-size: 35px;
+	font-family: 'Ubuntu', sans-serif;
+    	font-weight: 300;
+	background-color:black;
+	
 }
 
 .profession{

@@ -12,7 +12,7 @@ body, html {
   position: relative;
 }
 .hero-image1 {
-  //background-image:url("banner2.jpg");
+  background-image:url("images/indulging_background.jpg");
   height: 70%;
   border: 1px solid #ccc;
   margin: 10px;

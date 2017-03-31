@@ -151,7 +151,7 @@ div.container a
     color: #000;
     text-decoration: none;
     font: 20px Raleway;
-    font-family:'Raleway', sans-serif;
+	font-family:'Raleway', sans-serif;
     margin: 0px 10px;
     padding: 5px 5px;
     position: relative;
@@ -159,12 +159,12 @@ div.container a
     cursor: pointer;
 }
 .center-block {
-    	display: block;
+    display: block;
 	font-family: 'Macondo', cursive;
 	font-size:90px;
 	padding-bottom:50px;
-    	margin-right: auto;
-    	margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 .page-header {
     padding-bottom: 9px;
@@ -172,7 +172,7 @@ div.container a
     border-bottom: 1px solid #eee;
 }
 .text-center {
-    	text-align: center;
+    text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 27px;
 }
@@ -286,21 +286,32 @@ span.turn{
 
 .txt-left>img{
 	float: left;
-	width: 330px;
-	height: 350px;
+	width: 325px;
+	height: 345px;
 	border-radius:100%;
 	padding-right:10px;
 }
 
+.txt-right>img{
+	float: right;
+	width: 325px;
+	height: 345px;
+	border-radius:100%;
+	padding-right:10px;
+}
+
+
 .speaker-name{
 	font-family:'Muli', sans-serif;
-	font-size:25px;
+	font-size:30px;
+	//color:white;
 	font-weight: bold;
+	padding-top: 15px;
 }
 
 .speaker-profession{
 	font-family: 'Ubuntu', sans-serif;
-    	font-size: 20px;
+    font-size: 25px;
 	font-weight: bold;
 	padding-top: 3px;
 	color: red;
@@ -308,8 +319,15 @@ span.turn{
 
 .txt-left{
 	height: 350px;
-	background: linear-gradient(to left, #fff,#000);//rgba(255,0,0,0), rgba(255,0,0,1));
+	background: linear-gradient(to left, #75ef75, #c6b3f2);
 }
+
+.txt-right{
+	height: 350px;
+	background: linear-gradient(to left, #75ef75, #c6b3f2);
+	border:1px solid black;
+}
+
 /*.pic:hover .text
 {
 	opacity:0.6;
@@ -327,13 +345,13 @@ span.turn{
 	//padding-bottom:2rem;
 }
 .speakers-text{
-	padding-top: 55px;
+	padding-top: 30px;
 	padding-right:30px;
 	text-align:justify;
-	font-family:'Open Sans Condensed', sans-serif;
-	font-size:20px;
-	font-weight:bold;
+	font-family:'Raleway', sans-serif;
+	font-size:25px;
 	margin-left:10px;
+	//color:white;
 	//border:1px solid #ccc;
 }
 
@@ -342,7 +360,7 @@ span.turn{
 	text-align:center;
 	font-size: 35px;
 	font-family: 'Ubuntu', sans-serif;
-    	font-weight: 300;
+    font-weight: 300;
 	background-color:black;
 	
 }
